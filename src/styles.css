@@ -211,7 +211,7 @@ section.secondary {
 }
 
 .embed {
-  width: 100%;
+  width: 100px;
   aspect-ratio: 1/1;
 }
 
