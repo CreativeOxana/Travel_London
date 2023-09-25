@@ -171,7 +171,7 @@ section.secondary {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -182,6 +182,10 @@ section.secondary {
 
 .card-header {
   max-width: 100%;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -206,6 +210,11 @@ section.secondary {
   text-decoration: none;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -225,5 +234,13 @@ section.secondary {
   }
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  embed {
+    aspect-ratio: 16/9;
   }
 }
