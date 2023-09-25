@@ -85,7 +85,7 @@ main h5 {
   font-weight: 700;
   font-size: 13px;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
 }
 
@@ -186,6 +186,10 @@ section.secondary {
 
 .card-body {
   padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
 }
 
 .btn {
